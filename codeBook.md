@@ -10,31 +10,22 @@ more information about the run_analysis script and detailed walk through the dat
 
 
 
- 1. **"Subject"** 
+1. **"Subject"** 
   + a factor descriping the subjects participated in the experiment.
   + values are from 1 to 30.
- 2. **"Activity"** 
+2. **"Activity"** 
   + a factor of activity name perofmed by the subjects. 
   + avalues are ( WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
-  
 ######the feature variables below (#3 - #81) are each an average of the values collected for the test subject and activity specified in the data row. For each, the value is a numeric normalized and bounded within [-1, 1], more information about the original data is available in [features_info.txt](./features_info.txt) file that comes with the raw data set ######
-
- 3. **"TimeDomainBodyAccelerometerMeanX"** 
-  + the mean of the accelerometer measurement in time domain for X axis.
- 4. **"TimeDomainBodyAccelerometerMeanY"** 
-  + the mean of the accelerometer measurement in time domain for Y axis.                        
- 5. **"TimeDomainBodyAccelerometerMeanZ"** 
-  + the mean of the accelerometer measurement in time domain for Z axis.
- 6. **"TimeDomainBodyAccelerometerStandardDeviationX"** 
-  + the standard deviation of the accelerometer measurements in time domain for X axis.            
- 7. **"TimeDomainBodyAccelerometerStandardDeviationY"** 
-  + the standard deviation of the accelerometer measurements in time domain for Y axis.            
- 8. **"TimeDomainBodyAccelerometerStandardDeviationZ"** 
-  + the standard deviation of the accelerometer measurements in time domain for Z axis.             
- 9. **"TimeDomainGravityAccelerometerMeanX"**            
-  + the mean of the Gravity Accelerometer measurement in time domain for X axis.
-10. **"TimeDomainGravityAccelerometerMeanY"**                          
-  + the mean of the Gravity Accelerometer measurement in time domain for Y axis.
+3. **"TimeDomainBodyAccelerometerMeanX"** - the mean of the accelerometer measurement in time domain for X axis.
+4. **"TimeDomainBodyAccelerometerMeanY"** - the mean of the accelerometer measurement in time domain for Y axis.                 
+5. **"TimeDomainBodyAccelerometerMeanZ"** - the mean of the accelerometer measurement in time domain for Z axis.
+6. **"TimeDomainBodyAccelerometerStandardDeviationX"** - the standard deviation of the accelerometer measurements in time domain for X axis.            
+7. **"TimeDomainBodyAccelerometerStandardDeviationY"** - the standard deviation of the accelerometer measurements in time domain for Y axis.            
+8. **"TimeDomainBodyAccelerometerStandardDeviationZ"** - the standard deviation of the accelerometer measurements in time domain for Z axis.             
+9. **"TimeDomainGravityAccelerometerMeanX"** - the mean of the Gravity Accelerometer measurement in time domain for X axis.
+[10] **"TimeDomainGravityAccelerometerMeanY"**                          
+ + the mean of the Gravity Accelerometer measurement in time domain for Y axis.
 11. **"TimeDomainGravityAccelerometerMeanZ"**                           
   + the mean of the Gravity Accelerometer measurement in time domain for Z axis.
 12. **"TimeDomainGravityAccelerometerStandardDeviationX"**              
