@@ -118,6 +118,7 @@ as per the requirements in the project, the run analysis script does the followi
 > file.exists("./UCI HAR Dataset")
 [1] TRUE
 > file.exists("./run_analysis.R")
+[1] TRUE
 > source("./run_analysis.R")
 > run_analysis()
 
