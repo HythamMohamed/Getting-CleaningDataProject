@@ -99,6 +99,11 @@ as per the requirements in the project, the run analysis script does the followi
 - now apply the descriptive names generated in step (5) to the colnames of the resulting dataframe.
 - finally write the dataframe to a file "TidyDataSet.txt" in the current working directory.
 
+```{R}
+"run_analysis completed and file TidyDataSet.txt was generated in this path C:/your/path/here"
+```
+
+
 #### How to run the run_analysis.R script ?
 
 - `run_analysis.R` contains a code for a function called `run_analysis()` so copying the function definition and content to your R studio or R console will define the `run_analysis()` function.
@@ -111,6 +116,7 @@ as per the requirements in the project, the run analysis script does the followi
 
 ```{R}
 
+> setwd("C:/your/path/here")
 > TidyDataSet <- read.table("./TidyDataSet.txt",header=T)
 > View(TidyDataSet)
 
