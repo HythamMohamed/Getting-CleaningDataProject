@@ -8,6 +8,10 @@ run_analysis <- function()
   # it will check to see if the directory exist and if not it will create a directory
   # download and unzip the dataset then proceed with the data cleaning.
   
+  # it is highly recommended to download the file manually and uncompress it
+  # and place it in the working directory from which you will execute the script.
+  
+  
   if (!file.exists("./UCI HAR Dataset"))
   {
     dir.create("./UCI_data")
@@ -19,6 +23,7 @@ run_analysis <- function()
   
   
   # loading the dataset files into data frames.
+  
   X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
   y_test <- read.table("./UCI HAR Dataset/test/y_test.txt")
   subject_test <-
@@ -44,6 +49,10 @@ run_analysis <- function()
   # subset the columns based on their names in the features file.
   # include all columns that have mean or std but exclude angle measurments.
   #( i didn't consider it mean values)
+  
+  # this nested grep statment will do the following:
+  # internal grep will return values & index of all columns with mean & std in their name
+  # external grep will find the values that have angle exclude it (invert=T) and return the indexes.
   
   finalTestDS <-
     X_test[grep("angle",grep("[Mm][Ee][Aa][Nn]|[Ss][Tt][Dd]",features$V2,value = T),invert = T)]
@@ -91,7 +100,6 @@ run_analysis <- function()
   
   finalTrainDS <- mutate(finalTrainDS,activity = y_train[,"V2"])
   
-  #print(dim(finalTrainDS))
   
   # now we will merge the test & train data sets (rows)
   
@@ -105,6 +113,9 @@ run_analysis <- function()
   # we will make a function that will replace some of the appreviations
   # with their meaning as per the features.info file
   # also we will use make.names() and gsub() to clean the names from the dots and prackets
+  
+  # below the same nested grep used in the above code 
+  #but this time we are interested in the values this time not the index.
   
   input_names = grep(
     "angle",
