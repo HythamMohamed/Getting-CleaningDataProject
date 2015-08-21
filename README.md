@@ -99,9 +99,6 @@ as per the requirements in the project, the run analysis script does the followi
 - now apply the descriptive names generated in step (5) to the colnames of the resulting dataframe.
 - finally write the dataframe to a file "TidyDataSet.txt" in the current working directory.
 
-```{R}
-"run_analysis completed and file TidyDataSet.txt was generated in this path C:/your/path/here"
-```
 
 
 #### How to run the run_analysis.R script ?
@@ -109,6 +106,11 @@ as per the requirements in the project, the run analysis script does the followi
 - `run_analysis.R` contains a code for a function called `run_analysis()` so copying the function definition and content to your R studio or R console will define the `run_analysis()` function.
 - you just have to download and uncompress the dataset then set the working directory to the parent directory of th `UCI HAR Dataset` folder and then type `run_analysis()`.
 - when the function finish you will see a message that shows the name of the generated file (TidyDataSet.txt) and the path where it was generated.
+
+```{R}
+"run_analysis completed and file TidyDataSet.txt was generated in this path C:/your/path/here"
+``` 
+
 
 #### How to read the TidyDataSet.txt to R ?
 
