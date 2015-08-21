@@ -124,13 +124,15 @@ as per the requirements in the project, the run analysis script does the followi
 
 ```
 - you can also read the tidy data set directly from the submitted dataset in the coursera project page.
--
+
 ```{R}
 
 > TidyDS <- read.table("https://s3.amazonaws.com/coursera-uploads/user-a5743e0bf3132e2df0734eea/975115/asst-3/c54294a0481b11e5b3970d3996f36223.txt", header=T)
 > View(TidyDS)
 
 ```
+
+
 
 
 
