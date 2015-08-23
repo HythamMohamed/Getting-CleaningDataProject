@@ -19,8 +19,7 @@ more information about the run_analysis script and detailed walk through the dat
 
   ***the feature variables below (#3 - #81) are each an average of the values collected for the test subject and activity specified in the data row. For each, the value is a numeric normalized and bounded within [-1, 1], more information about the original data is available in [features_info.txt](./features_info.txt) file that comes with the raw data set ***
 
-3. **"TimeDomainBodyAccelerometerMeanX"** 
-    + the mean of the accelerometer measurement in time domain for X axis.
+3. **"TimeDomainBodyAccelerometerMeanX"** - the mean of the accelerometer measurement in time domain for X axis.
 4. **"TimeDomainBodyAccelerometerMeanY"** - the mean of the accelerometer measurement in time domain for Y axis.                 
 5. **"TimeDomainBodyAccelerometerMeanZ"** - the mean of the accelerometer measurement in time domain for Z axis.
 6. **"TimeDomainBodyAccelerometerStandardDeviationX"** - the standard deviation of the accelerometer measurements in time domain for X axis.            
