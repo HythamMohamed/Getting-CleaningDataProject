@@ -110,7 +110,7 @@ as per the requirements in the project, the run analysis script does the followi
 
 - asume you have saved the code in the same directory level where you uncompresed the UCI data and named it `run_analysis.R` then you can run it as below.
 
-**note that the function will take some time to complete so please don't interupt it until you get the console back ">"**
+**note that the function will take some time to complete so please don't interupt it until you get the cursor ">" back**
 
 ```{R}
 
