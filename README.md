@@ -106,7 +106,7 @@ as per the requirements in the project, the run analysis script does the followi
 - `run_analysis.R` contains a code for a function called `run_analysis()` so copying the function definition and content to your R studio or R console will define the `run_analysis()` function.
 - you just have to download and uncompress the dataset then set the working directory to the parent directory of th `UCI HAR Dataset` folder and then type `run_analysis()`.
 
-- you can also copy the code from (run_analysis.R)[./run_analysis.R] and save it to a text file in your computer and source the file but make sure to copy the code without any extra lines from githup and to save the code with .R extention.
+- you can also copy the code from [run_analysis.R](./run_analysis.R) and save it to a text file in your computer and source the file but make sure to copy the code without any extra lines from githup and to save the code with .R extention.
 
 - asume you have saved the code in the same directory level where you uncompresed the UCI data and named it `run_analysis.R` then you can run it as below.
 
